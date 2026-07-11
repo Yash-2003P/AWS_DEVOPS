@@ -1,4 +1,6 @@
 # Task 1 — Create an AWS EC2 Instance (20 Marks)
+# Launch an Ubuntu EC2 instance, create a Security Group, allow ports 22 and 80, and connect using SSH.
+# Deliverables: EC2 Public IP, EC2 Dashboard screenshot, SSH login screenshot.
 
 ## Solution — What I Did Step by Step
 
