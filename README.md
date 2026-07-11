@@ -342,6 +342,8 @@ scp -i rhel10_keys.pem ec2-user@<ec2_elastic_public_ip>:/home/ec2-user/abc.txt /
 
 `http://<ec2_elastic_public_ip>`
 
+`http://<ec2_elastic_public_ip>:80`
+
 ## Notes
  
 This setup covers a single EC2 instance with Nginx serving a static page, secured with a scoped-down Security Group and firewalld, plus an Elastic IP so the address stays fixed across restarts. Natural next steps would be adding HTTPS with a real domain and Let's Encrypt, moving the HTML into a small CI/CD pipeline (GitHub Actions → SCP or S3 deploy), and swapping the manual Nginx restart for a systemd unit or Docker container so the service recovers on its own after a reboot.
