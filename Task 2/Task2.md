@@ -1,4 +1,6 @@
-# Task 2 — Linux Basics: Nginx Install, Status, Restart, Monitoring (20 Marks)
+# Task 2 — Linux Basics:
+# Update packages, install Nginx, check Nginx status, restart Nginx, check disk usage, memory usage, and running processes.
+# Deliverables: Screenshots showing Nginx installed, running, and website accessible.
 
 ## Solution — What I Did Step by Step
 
