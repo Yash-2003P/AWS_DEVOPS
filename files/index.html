@@ -1,71 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AWS DevOps Intern Assignment Submission</title>
+<meta charset="UTF-8">
+<title>AWS DevOps Internship</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    background: #ffffff;
+    color: #14202b;
+    font-family: 'Inter', 'Segoe UI', Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* soft layered background, no crossing grid lines */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(circle at 12% 8%, rgba(31,111,235,0.12), transparent 42%),
+      radial-gradient(circle at 88% 92%, rgba(255,153,0,0.10), transparent 42%),
+      radial-gradient(#dbe6f5 1px, transparent 1px);
+    background-size: auto, auto, 26px 26px;
+    z-index: -1;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 780px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Poppins', Georgia, serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1f6feb;
+    letter-spacing: 0.3px;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #4a6786;
+  }
+
+  .divider {
+    height: 3px;
+    width: 90px;
+    background: #ff9900;
+    margin: 26px auto 34px;
+    border-radius: 2px;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1f6feb;
+    margin-bottom: 12px;
+  }
+
+  .details {
+    width: 100%;
+    text-align: left;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px 20px;
+    padding: 14px 4px;
+  }
+
+  .label {
+    flex: 0 0 auto;
+    min-width: 100px;
+    color: #1f6feb;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+  }
+
+  .value {
+    flex: 1 1 auto;
+    text-align: right;
+    color: #14202b;
+    font-weight: 500;
+    font-size: 19px;
+    word-break: break-word;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+
+  .submitted {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #1f6feb;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    letter-spacing: 0.5px;
+  }
+
+  .submitted svg { width: 20px; height: 20px; }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 32px; }
+    h2 { font-size: 17px; }
+    .label, .value { font-size: 16px; }
+    .submitted { font-size: 17px; padding: 10px 22px; }
+    .row { justify-content: flex-start; }
+    .value { text-align: left; flex-basis: 100%; }
+  }
+</style>
 </head>
-<body bgcolor="#0d1117" text="#dbe4ec">
+<body>
 
-<br><br>
+<div class="page">
 
-<center>
+  <h1>AWS DevOps Internship</h1>
+  <h2>Assignment Submission</h2>
+  <div class="divider"></div>
 
-<table width="650" cellpadding="40" cellspacing="0" border="1" bordercolor="#23303c" bgcolor="#12181f">
-<tr>
-<td>
+  <h3>Submission Details</h3>
+  <div class="details">
+    <div class="row"><span class="label">Name</span><span class="value">Yasharth Panwar</span></div>
+    <div class="row"><span class="label">College</span><span class="value">Engineering College ,Ajmer</span></div>
+    <div class="row"><span class="label">Branch</span><span class="value">Computer Science &amp; Engineering</span></div>
+    <div class="row"><span class="label">Email</span><span class="value">panwaryasharth203@gmail.com</span></div>
+    <div class="row"><span class="label">Date</span><span class="value">11-07-2026</span></div>
+  </div>
 
-  <center>
-    <font face="Georgia, serif" size="6" color="#f3f6f9"><b>AWS DevOps Intern</b></font><br>
-    <font face="Georgia, serif" size="6" color="#ff9900"><b>Assignment Submission</b></font>
-  </center>
+  <div class="footer">
+    <div class="submitted">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 13l4 4L19 7" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Assignment Submitted
+    </div>
+  </div>
 
-  <br>
-  <hr color="#23303c" size="1">
-  <br>
-
-  <table width="100%" cellpadding="10" cellspacing="0" border="0">
-
-    <tr>
-      <td width="30%"><font face="Verdana" size="2" color="#7d8b98"><b>Name</b></font></td>
-      <td><font face="Verdana" size="3" color="#dbe4ec">Yasharth Panwar</font></td>
-    </tr>
-
-    <tr><td colspan="2"><hr color="#23303c" size="1"></td></tr>
-
-    <tr>
-      <td><font face="Verdana" size="2" color="#7d8b98"><b>College</b></font></td>
-      <td><font face="Verdana" size="3" color="#dbe4ec">Engineering College ,Ajmer</font></td>
-    </tr>
-
-    <tr><td colspan="2"><hr color="#23303c" size="1"></td></tr>
-
-    <tr>
-      <td><font face="Verdana" size="2" color="#7d8b98"><b>Branch</b></font></td>
-      <td><font face="Verdana" size="3" color="#dbe4ec">Computer Science &amp; Engineering</font></td>
-    </tr>
-
-    <tr><td colspan="2"><hr color="#23303c" size="1"></td></tr>
-
-    <tr>
-      <td><font face="Verdana" size="2" color="#7d8b98"><b>Email</b></font></td>
-      <td><font face="Verdana" size="3" color="#dbe4ec">panwaryasharth203@gmail.com</font></td>
-    </tr>
-
-    <tr><td colspan="2"><hr color="#23303c" size="1"></td></tr>
-
-    <tr>
-      <td><font face="Verdana" size="2" color="#7d8b98"><b>Date</b></font></td>
-      <td><font face="Verdana" size="3" color="#ff9900">11-07-2026</font></td>
-    </tr>
-
-  </table>
-
-</td>
-</tr>
-</table>
-
-<br><br>
-
-</center>
+</div>
 
 </body>
 </html>
