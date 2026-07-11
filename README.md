@@ -321,7 +321,7 @@ scp -i rhel10_keys.pem ec2-user@<ec2_elastic_public_ip>:/home/ec2-user/abc.txt /
 │   └── Bonus.md
 ├── Task 1/
 │   ├── Task1.md
-│   └── ec2.jpg
+│   └── ec2.webp
 ├── Task 2/
 │   ├── 21.png
 │   └── Task2.md
