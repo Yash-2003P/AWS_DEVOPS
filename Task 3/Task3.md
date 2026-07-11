@@ -1,4 +1,6 @@
 # Task 3 — Host a Simple Website (20 Marks)
+# Create a basic HTML page containing your Name, College, Branch, Email, and Current Date. Replace the default Nginx page with it.
+# Deliverables: Website accessible via EC2 Public IP and browser screenshot.
 
 ## Solution — What I Did Step by Step
 
