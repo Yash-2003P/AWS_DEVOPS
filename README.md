@@ -329,7 +329,6 @@ scp -i rhel10_keys.pem ec2-user@<ec2_elastic_public_ip>:/home/ec2-user/abc.txt /
 │   ├── Task3.md
 │   └── index.html
 ├── Task 4/
-│   ├── Ta.md
 │   └── Task4.md
 ├── Task 5/
 │   ├── Task5.md
